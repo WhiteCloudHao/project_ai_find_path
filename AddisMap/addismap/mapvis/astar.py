@@ -48,8 +48,6 @@ def a_star_search(graph, start, goal, allNodes): #start and goal have .lat, .lng
     cost_so_far = {}
     came_from[str(start.id)] = None
     cost_so_far[str(start.id)] = 0
-    print("lot astar" )
-    # time.sleep(1000)
     while not frontier.empty():
         current = frontier.get()
         
